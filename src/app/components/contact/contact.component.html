@@ -1,0 +1,14 @@
+<div class="contact-wrapper">
+    <h3 class="text-1">
+        {{contact.firstname}} {{contact.lastname}}
+        <fa-icon (click)="onDelete(contact)" [icon]="faTimes" [ngStyle]="{color: 'red'}"></fa-icon>
+    </h3>
+    <p class="text-2">
+        {{contact.number}}
+    </p>
+    <p class="text-3">
+        {{contact.text}}
+    </p>
+
+</div>
+
