@@ -12,13 +12,12 @@ export class ContactService {
   constructor(private http: HttpClient) { }
 
   getContacts(): Observable<Contact[]> {
-    // const contacts = of(CONTACTS);
-    // return contacts
     return this.http.get<Contact[]>(this.apiUrl)
   }
 
   deleteContact(contact: Contact): Observable<Contact> {
-    const url = `${this.apiUrl}/${contact.id}}`;
+    const url = `${this.apiUrl}/${contact.id}`;
+    console.log("Contact ID =>"+url)
     return this.http.delete<Contact>(url);
   }
 }

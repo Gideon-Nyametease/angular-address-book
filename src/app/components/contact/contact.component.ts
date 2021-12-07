@@ -9,7 +9,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 })
 export class ContactComponent implements OnInit {
   @Input() contact!: Contact;
-  @Output() onDeleteContact: EventEmitter<Task> = new EventEmitter();
+  @Output() onDeleteContact: EventEmitter<Contact> = new EventEmitter();
   faTimes = faTimes;
   constructor() { }
 
