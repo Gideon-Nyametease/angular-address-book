@@ -8,13 +8,6 @@
       "text": "SWE - Comm 1"
     },
     {
-      "id": 2,
-      "firstname": "Samson",
-      "lastname": "Dadson",
-      "number": "0244759000",
-      "text": "Uncle Dadson"
-    },
-    {
       "id": 3,
       "firstname": "Lawer",
       "lastname": "Silas",
@@ -27,6 +20,20 @@
       "lastname": "",
       "number": "0274000667",
       "text": "uwu"
+    },
+    {
+      "firstname": "Adotey ",
+      "lastname": "Tetor",
+      "number": "0243332121",
+      "text": "Supa!",
+      "id": 5
+    },
+    {
+      "firstname": "Atwei",
+      "lastname": "Buckman",
+      "number": "0265543242",
+      "text": "Bundz",
+      "id": 6
     }
   ]
 }

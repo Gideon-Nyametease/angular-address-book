@@ -1,4 +1,11 @@
-<app-contact *ngFor="let contact of contacts" [contact]="contact" (onDeleteContact)="deleteContact(contact)">
+<app-add-contact
+  (onAddContact)="addContact($event)">
+</app-add-contact>
+<app-contact
+  *ngFor="let contact of contacts"
+  [contact]="contact"
+  (onDeleteContact)="deleteContact(contact)"
+>
 </app-contact>
 
 
